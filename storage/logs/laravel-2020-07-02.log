@@ -1,0 +1,10 @@
+[2020-07-02 18:07:43] production.ERROR: There are no commands defined in the "generate" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"generate\" namespace. at C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\symfony\\console\\Application.php:597)
+[stacktrace]
+#0 C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\symfony\\console\\Application.php(650): Symfony\\Component\\Console\\Application->findNamespace('generate')
+#1 C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('generate:key')
+#2 C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\GestionStageBackEnd\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\GestionStageBackEnd\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
